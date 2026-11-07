@@ -6,17 +6,23 @@ Pega el link de un reel: ReelScope desmonta su estructura, te propone 3 hooks y 
 
 <p align="center">
   <a href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope.dmg"><b>⬇️ Descargar para Mac</b></a> ·
-  <a href="https://altaventasllc-source.github.io/reelscope-app/">Web</a> ·
-  Windows: próximamente
+  <a href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope-Setup.exe"><b>⬇️ Descargar para Windows</b></a> ·
+  <a href="https://altaventasllc-source.github.io/reelscope-app/">Web</a>
 </p>
 
-## Instalación
+## Instalación en Mac
 1. Descarga **ReelScope.dmg** y ábrelo.
 2. Arrastra **ReelScope** a **Aplicaciones**.
 3. La primera vez, ábrela con **clic derecho → Abrir → Abrir**. Si macOS no te deja: *Ajustes del Sistema → Privacidad y seguridad → Abrir igualmente*.
 4. ReelScope instala lo que falte y te pide iniciar sesión en Claude una vez.
 
-**Requisitos:** macOS 12 o superior (Apple Silicon o Intel) · cuenta de Claude Pro o Max · sesión iniciada en Instagram en tu navegador.
+## Instalación en Windows
+1. Descarga **ReelScope-Setup.exe** y ábrelo.
+2. Si aparece **"Windows protegió tu PC"**, pulsa **Más información → Ejecutar de todas formas**.
+3. Se instala sola. La primera vez instala lo que falte y te pide iniciar sesión en Claude.
+4. Para descargar de Instagram, inicia sesión en Instagram en **Firefox**.
+
+**Requisitos:** macOS 12 o superior (Apple Silicon o Intel) o Windows 10/11 de 64 bits · cuenta de Claude Pro o Max · sesión iniciada en Instagram en tu navegador.
 
 ---
 Creado por [Ismael Soltero](https://www.instagram.com/ismaelsoltero/)

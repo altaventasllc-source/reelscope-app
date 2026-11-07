@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ReelScope · Modela reels virales para tu negocio</title>
-<meta name="description" content="ReelScope desmonta cualquier reel viral y lo convierte en un guion listo para grabar, adaptado a tu negocio. App gratuita para Mac.">
+<meta name="description" content="ReelScope desmonta cualquier reel viral y lo convierte en un guion listo para grabar, adaptado a tu negocio. App gratuita para Mac y Windows.">
 <link rel="icon" href="img/favicon.png">
 <meta property="og:title" content="ReelScope · Modela reels virales para tu negocio">
 <meta property="og:description" content="Pega el link de un reel y obtén su estructura, 3 hooks y un guion listo para grabar adaptado a tu negocio.">
@@ -148,25 +148,25 @@ footer a:hover{color:var(--g2)}
   <a class="lnk" href="#como-funciona">Cómo funciona</a>
   <a class="lnk" href="#instalar">Instalar</a>
   <a class="lnk" href="#faq">Preguntas</a>
-  <a class="btn btn-main btn-sm" href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope.dmg">Descargar</a>
+  <a class="btn btn-main btn-sm" href="#descargar">Descargar</a>
 </div></nav>
 
 <header class="hero"><div class="wrap">
   <img class="appicon" src="img/icon.png" alt="Logo de ReelScope">
-  <div><span class="pill">✨ App gratuita para Mac · Versión <span id="v">1.0</span></span></div>
+  <div><span class="pill">✨ App gratuita para Mac y Windows · Versión <span id="v">1.1</span></span></div>
   <h1>Modela cualquier reel viral y <span class="grad-text">conviértelo en el tuyo</span></h1>
   <p class="lead">Pega el link de un reel que funciona. ReelScope desmonta su estructura, te propone 3 hooks y escribe un guion listo para grabar, adaptado a tu negocio y que suena a ti.</p>
-  <div class="ctas">
+  <div class="ctas" id="descargar" style="scroll-margin-top:120px">
     <a class="btn btn-main" href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope.dmg">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.9-.9-3.1-.8-1.6 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3.1.7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.1 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z"/></svg>
       Descargar para Mac
     </a>
-    <span class="btn btn-off" title="Estamos trabajando en ello">
+    <a class="btn btn-main" href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope-Setup.exe">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zm8.4 1.2L21 21v-8.4h-9.6v7.1zm0-15.4v7.2H21V3l-9.6 1.3z"/></svg>
-      Windows · Próximamente
-    </span>
+      Descargar para Windows
+    </a>
   </div>
-  <p class="note">macOS 12 o superior · Apple Silicon e Intel · Necesitas una cuenta de <b>Claude Pro o Max</b></p>
+  <p class="note">Mac: macOS 12 o superior · Windows 10 u 11 (64 bits) · Necesitas una cuenta de <b>Claude Pro o Max</b></p>
 
   <div class="mock" aria-label="Vista ilustrativa de ReelScope">
     <div class="mbar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span>ReelScope</span></div>
@@ -225,27 +225,44 @@ footer a:hover{color:var(--g2)}
   <p class="kicker">Instalar</p>
   <h2>Listo en 5 minutos</h2>
   <p class="sub">La primera vez ReelScope instala lo que necesita y te guía paso a paso. Después, abrir y usar.</p>
-  <div class="install">
+  <div class="grid g2">
     <div class="card">
-      <ol class="steps">
+      <h3 style="margin-top:0"> En Mac</h3>
+      <ol class="steps" style="margin-top:14px">
         <li><span><b>Descarga ReelScope.dmg</b> y ábrelo con doble clic.</span></li>
         <li><span><b>Arrastra ReelScope a Aplicaciones</b> en la ventana que se abre.</span></li>
         <li><span>La primera vez, ábrela con <b>clic derecho → Abrir → Abrir</b>.</span></li>
-        <li><span>ReelScope comprueba tu Mac e <b>instala solo lo que falte</b> (descargador, transcriptor y Claude Code). Unos minutos, una sola vez.</span></li>
+      </ol>
+      <div class="warn">⚠️ <b>¿Te dice que no se puede abrir?</b> Ve a <b>Ajustes del Sistema → Privacidad y seguridad</b>, baja hasta el final y pulsa <b>"Abrir igualmente"</b>.</div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">⊞ En Windows</h3>
+      <ol class="steps" style="margin-top:14px">
+        <li><span><b>Descarga ReelScope-Setup.exe</b> y ábrelo.</span></li>
+        <li><span>Si sale la pantalla azul <b>"Windows protegió tu PC"</b>, pulsa <b>Más información → Ejecutar de todas formas</b>.</span></li>
+        <li><span>Se instala sola y crea un acceso directo en el escritorio y en el menú Inicio.</span></li>
+      </ol>
+      <div class="warn">💡 <b>Para descargar de Instagram en Windows</b>, inicia sesión en Instagram en <b>Firefox</b>: Chrome y Edge protegen su sesión y a veces no se puede leer. Si no, descarga el reel y arrástralo a la ventana.</div>
+    </div>
+  </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card">
+      <h3 style="margin-top:0">La primera vez</h3>
+      <ol class="steps" style="margin-top:12px">
+        <li><span>ReelScope comprueba tu ordenador e <b>instala solo lo que falte</b> (descargador, transcriptor y Claude Code). Unos minutos, una sola vez.</span></li>
         <li><span><b>Inicia sesión en Claude</b> una vez, cuando la app te lo pida.</span></li>
         <li><span>Pega el link de un reel y <b>¡a crear!</b></span></li>
       </ol>
-      <div class="warn">⚠️ <b>¿Te dice que no se puede abrir?</b> Es normal en apps fuera de la App Store. Ve a <b>Ajustes del Sistema → Privacidad y seguridad</b>, baja hasta el final y pulsa <b>"Abrir igualmente"</b>.</div>
     </div>
     <div class="card">
       <h3 style="margin-top:0">Qué necesitas</h3>
       <ul class="list" style="margin-top:12px">
-        <li>Un Mac con macOS 12 o superior (Apple Silicon o Intel)</li>
+        <li>Mac con macOS 12 o superior, o PC con Windows 10 u 11 (64 bits)</li>
         <li>Una cuenta de Claude Pro o Max (el análisis usa tu cuenta)</li>
-        <li>Haber iniciado sesión en Instagram en tu navegador (Chrome recomendado)</li>
+        <li>Haber iniciado sesión en Instagram en tu navegador</li>
         <li>Unos 2 GB libres para las herramientas</li>
       </ul>
-      <h3 style="margin-top:26px">Actualizaciones</h3>
+      <h3 style="margin-top:22px">Actualizaciones</h3>
       <p>Cuando haya una versión nueva, ReelScope te avisará al abrirse. Pulsas <b>Actualizar ahora</b> y se descarga, se instala y se vuelve a abrir sola. Tus informes y negocios se conservan.</p>
     </div>
   </div>
@@ -255,10 +272,10 @@ footer a:hover{color:var(--g2)}
   <div class="center"><p class="kicker">Preguntas</p><h2>Preguntas frecuentes</h2></div>
   <div style="margin-top:28px">
     <details><summary>¿Es gratis?</summary><p>Sí, la app es gratuita. El análisis lo hace Claude con tu propia cuenta (Pro o Max), así que solo usas tu suscripción.</p></details>
-    <details><summary>¿Funciona en Windows?</summary><p>Todavía no. Estamos preparando la versión de Windows. Si la necesitas, escríbenos por Instagram y te avisamos cuando esté.</p></details>
-    <details><summary>¿Dónde se guardan mis informes y datos?</summary><p>En tu ordenador, en Documentos › ReelScope. Los vídeos se procesan en tu Mac y el contexto de tu negocio no sale de él salvo para enviárselo a Claude al generar un guion.</p></details>
+    <details><summary>¿Funciona en Windows?</summary><p>Sí. Descarga ReelScope-Setup.exe, ábrelo y se instala sola. Funciona en Windows 10 y 11 de 64 bits.</p></details>
+    <details><summary>¿Dónde se guardan mis informes y datos?</summary><p>En tu ordenador, en Documentos › ReelScope. Los vídeos se procesan en tu ordenador y el contexto de tu negocio no sale de él salvo para enviárselo a Claude al generar un guion.</p></details>
     <details><summary>¿Copia los reels de otros?</summary><p>No. Modela la estructura (la fórmula) del reel original y escribe un guion nuevo con tu tema y tu forma de hablar. Úsalo para analizar referencias, respetando los términos de Instagram y los derechos de los autores.</p></details>
-    <details><summary>¿Por qué me pide la clave del Mac al descargar de Instagram?</summary><p>Para leer tu sesión de Instagram del navegador, solo la primera vez. Pulsa "Permitir siempre". ReelScope guarda únicamente la sesión de Instagram.</p></details>
+    <details><summary>¿Por qué el Mac me pide la clave al descargar de Instagram?</summary><p>En Mac, para leer tu sesión de Instagram del navegador, solo la primera vez. Pulsa "Permitir siempre". ReelScope guarda únicamente la sesión de Instagram.</p></details>
     <details><summary>¿Puedo usarlo para varios negocios o clientes?</summary><p>Sí. Puedes crear varios perfiles de negocio y elegir cuál usar cada vez que replicas un reel.</p></details>
   </div>
 </div></section>
@@ -266,10 +283,10 @@ footer a:hover{color:var(--g2)}
 <div class="wrap">
   <div class="final">
     <h2>Tu próximo reel empieza con uno que ya funcionó</h2>
-    <p>Descarga ReelScope gratis y modela tu primer reel hoy.</p>
+    <p>Descarga ReelScope gratis para Mac o Windows y modela tu primer reel hoy.</p>
     <div class="ctas">
       <a class="btn btn-main" href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope.dmg">Descargar para Mac</a>
-      <span class="btn btn-off">Windows · Próximamente</span>
+      <a class="btn btn-main" href="https://github.com/altaventasllc-source/reelscope-app/releases/latest/download/ReelScope-Setup.exe">Descargar para Windows</a>
     </div>
   </div>
 </div>
